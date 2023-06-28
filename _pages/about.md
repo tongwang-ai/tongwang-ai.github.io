@@ -13,10 +13,10 @@ profile:
     <p>New Haven, CT 06511</p>
     <p>tong.wang.tw687@yale.edu </p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
 Tong Wang’s research interests are in developing machine learning solutions for business problems. Her work focuses on creating novel interpretable models that can effectively represent and analyze structured and unstructured data, such as texts and images. The overarching objective of these interpretable models is to extract valuable insights from the data, empowering stakeholders to make well-informed decisions while also facilitating a clear understanding of the decision-making processes employed by the models.
