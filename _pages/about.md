@@ -6,7 +6,7 @@ subtitle: <a href='#'>School of Management, Yale University </a>. Address. Conta
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.PNG
   image_circular: false # crops the image to make it circular
   address: >
     <p>555 your office number</p>
