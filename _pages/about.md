@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>School of Management, Yale University </a>. Address. Contacts. Moto. Etc.
+subtitle: School of Management, Yale University 
 
 profile:
   align: right
@@ -11,6 +11,7 @@ profile:
   address: > 
     <p>165 Whitney Ave, </p>
     <p>New Haven, CT 06511</p>
+    <p>tong.wang.tw687@yale.edu </p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
