@@ -11,7 +11,7 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% bibliography -f {{ site.scholar.bibliography }} -t ML %}
+{% bibliography -f {{ site.scholar.bibliography }} %}
 
 </div>
 
@@ -20,7 +20,7 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% bibliography -f {{ site.scholar.bibliography }} -t business %}
+{% bibliography -f {{ site.scholar.bibliography }}  %}
 
 </div>
 
