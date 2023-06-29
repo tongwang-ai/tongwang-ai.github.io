@@ -6,13 +6,9 @@ description: publications by categories in reversed chronological order. generat
 nav: true
 nav_order: 1
 ---
-
-## Interpretable Machine Learning Methods
 <!-- _pages/publications.md -->
 <div class="publications">
 
 {% bibliography -f {{ site.scholar.bibliography }} %}
 
 </div>
-
-
