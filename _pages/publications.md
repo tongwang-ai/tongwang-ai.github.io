@@ -11,9 +11,17 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% bibliography -f {{ site.scholar.bibliography }} %}
+{% bibliography -f {{ site.scholar.bibliography_ML }} %}
 
 </div>
 
 ---
 ## Machine Learning for Business Applications
+<!-- _pages/publications.md -->
+<div class="publications">
+
+{% bibliography -f {{ site.scholar.bibliography_business }} %}
+
+</div>
+
+---
