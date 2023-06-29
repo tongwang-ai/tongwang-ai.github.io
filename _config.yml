@@ -207,6 +207,7 @@ kramdown:
 include: ['_pages']
 exclude:
   - _pages/publications.md
+  - _pages/teaching.md
   - _pages/blog.md
   - _pages/projects.md
   - _pages/repositories.md
