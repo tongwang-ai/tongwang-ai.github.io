@@ -207,6 +207,11 @@ kramdown:
 include: ['_pages']
 exclude:
   - _pages/publications.md
+  - _pages/blog.md
+  - _pages/projects.md
+  - _pages/repositories.md
+  - _pages/cv.md
+  - _pages/dropdown.md
   - bin
   - Gemfile
   - Gemfile.lock
