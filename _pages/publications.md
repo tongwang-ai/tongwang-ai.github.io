@@ -8,7 +8,7 @@ nav_order: 1
 ---
 
 ---
-## Interpretable Machine Learning
+## **Interpretable Machine Learning**
 <!-- _pages/publications.md -->
 <div class="publications">
 
@@ -39,7 +39,7 @@ nav_order: 1
 
 
 ---
-## Business Applications
+## **Business Applications**
 <!-- _pages/publications.md -->
 <div class="publications">
 
