@@ -118,9 +118,11 @@ blockquote {
   width: 100%;
 
   .address {
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     font-family: monospace;
+    display: grid;
+    place-items: center;
 
     p {
       display: inline-block;
@@ -305,7 +307,7 @@ blockquote {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 3rem;
 
     a {
       i::before {

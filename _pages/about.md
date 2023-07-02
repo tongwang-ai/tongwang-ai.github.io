@@ -8,10 +8,8 @@ profile:
   align: right
   image: prof_pic.PNG
   image_circular: false # crops the image to make it circular
-  address: > 
-    <p> Office: 5469    </p>
-    <p>165 Whitney Ave </p>
-    <p>New Haven, CT 06511</p>
+  address: 165 Whitney Ave <br> New Haven, CT 06511 
+  
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts

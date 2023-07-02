@@ -27,18 +27,64 @@ layout: default
               path=profile_image_path
               class=profile_image_class
               alt=page.profile.image -%}
-            {% endif -%}
-            {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
+              {%- if page.profile.address %}
+              <div class="address">
+                {{ page.profile.address }}<br>
+                <div class="social">
+                  <div class="contact-icons">
+                    {% include social.html %}
+                  </div>  
+                </div>
+              </div>
+              {%- endif %}
+              {%- if page.social %}
+          
             {%- endif %}
+            {% endif -%}
+       
           </div>
           {%- endif %}
 
           <div class="clearfix">
             {{ content }}
           </div>
+          <hr>
+          <div>
+            <p style="font-size: 25px; font-weight:bold">Academic Positions</p>
+            
+            <span style="float: left; font-weight:bold">Yale University, School of Management</span>
+            <span style="float: right;">New Haven, CT</span><br>
+            <span style="float: left;">Assistant Professor of Marketing</span>
+            <span style="float: right;">2023 - present</span><br> <br>
+    
+
+            <span style="float: left; font-weight:bold">University of Iowa, Tippie College of Business</span>
+            <span style="float: right;">Iowa City, IA</span><br>
+            <span style="float: left;"> Assistant Professor of Business Analytics</span>
+            <span style="float: right;">2016 - 2023</span><br>
+            <span style="font-style: italic;">(Promotion and Tenure Granted May 2023)</span>
+          </div>
+
+          <hr>
+
+          <div>
+            <p style="font-size: 25px; font-weight:bold">Education</p>
+            
+            <span style="float: left; font-weight:bold">Massachusetts Institute of Technology</span>
+            <span style="float: right;">Cambridge, MA</span><br>
+            <span style="float: left;">Ph.D. in Computer Science</span>
+            <span style="float: right;">2012 - 2016</span><br>
+            <span style="float: left;">M.S. in Electrical Engineering and Computer Science</span>
+            <span style="float: right;">2010 - 2012</span><br><br>
+
+            <span style="float: left; font-weight:bold">Beijing University of Posts and Telecommunications</span>
+            <span style="float: right;">Beijing, China</span><br>
+            <span style="float: left;">B.S. in Electrical Engineering with <span style="font-style: italic;">Highest Distinction</span></span>
+            <span style="float: right;">2006 - 2010</span><br>
+          </div>
+
+          <hr>
+    
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
@@ -62,11 +108,11 @@ layout: default
           {%- if page.social %}
             <div class="social">
               <div class="contact-icons">
-                {% include social.html %}
+             <!--   {% include social.html %}-->
               </div>
 
               <div class="contact-note">
-                {{ site.contact_note }}
+             <!--   {{ site.contact_note }}-->
               </div>
 
             </div>
