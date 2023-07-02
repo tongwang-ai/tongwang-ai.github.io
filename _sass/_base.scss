@@ -123,10 +123,12 @@ blockquote {
     font-family: monospace;
     display: grid;
     place-items: center;
+    
 
     p {
       display: inline-block;
       margin: 0;
+      
     }
   }
 }
