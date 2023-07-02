@@ -38,11 +38,19 @@ nav_order: 1
 {% endfor %}
 
 
----
+
 ## **Business Applications**
 <!-- _pages/publications.md -->
 <div class="publications">
 
 {% bibliography --file business %}
+
+</div>
+
+## **Articles in Healthcare and Sociology**
+<!-- _pages/publications.md -->
+<div class="publications">
+
+{% bibliography --file healthcare %}
 
 </div>
