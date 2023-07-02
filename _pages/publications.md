@@ -8,7 +8,16 @@ nav_order: 1
 ---
 
 ---
-## **Interpretable Machine Learning**
+## **Preprints**
+<!-- _pages/publications.md -->
+<div class="publications">
+
+{% bibliography --file preprints %}
+
+</div>
+
+---
+## **Machine Learning Conferences and Journals**
 <!-- _pages/publications.md -->
 <div class="publications">
 
@@ -18,10 +27,10 @@ nav_order: 1
 
 
 
+---
 
 
-
-## **Business Applications**
+## **Business Journals**
 <!-- _pages/publications.md -->
 <div class="publications">
 
@@ -29,7 +38,9 @@ nav_order: 1
 
 </div>
 
-## **Articles in Healthcare and Sociology**
+---
+
+## **Healthcare and Sociology Journals**
 <!-- _pages/publications.md -->
 <div class="publications">
 
