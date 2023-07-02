@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: School of Management, Yale University 
+subtitle:  Assistant Professor of Marketing <br> School of Management, Yale University 
 
 profile:
   align: right
