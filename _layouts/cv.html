@@ -42,6 +42,7 @@ layout: default
         </div>  -->
 
 
+    
         <head>
           <style>
             /* Set the size of the iframe */
@@ -49,6 +50,15 @@ layout: default
               width: 100%;
               height: 100vh; /* Adjust the height as per your needs */
               overflow: auto;
+              -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+            }
+        
+            /* Adjust the iframe height to fit the content */
+            iframe {
+              display: block;
+              width: 100%;
+              height: 100%;
+              border: none;
             }
           </style>
         </head>
