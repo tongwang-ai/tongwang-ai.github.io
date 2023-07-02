@@ -32,7 +32,7 @@ nav_order: 1
 
 ## **Business Journals**
 <!-- _pages/publications.md -->
-<div class="publications">
+<div class="publications_business">
 
 {% bibliography --file business %}
 
@@ -42,7 +42,7 @@ nav_order: 1
 
 ## **Healthcare and Sociology Journals**
 <!-- _pages/publications.md -->
-<div class="publications">
+<div class="publications_healthcare">
 
 {% bibliography --file healthcare %}
 
