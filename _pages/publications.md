@@ -16,26 +16,8 @@ nav_order: 1
 
 </div>
 
-{% for paper in site.data[site.scholar.bibliography] %}
-  ### {{ paper.title }}
-  {% if paper.code %}
-    Code: [Link]({{ paper.code }})
-  {% endif %}
-{% endfor %}
 
-{% for paper in site.data[site.scholar.bibliography] %}
-  ### {{ paper.title }}
-  {% if paper.annotations %}
-    <p>{{ paper.annotations }}</p>
-  {% endif %}
-{% endfor %}
 
-{% for paper in site.data[site.scholar.bibliography] %}
-  ### {{ paper.title }}
-  {% if paper.annotations %}
-    <p>{{ paper.annotations }}</p>
-  {% endif %}
-{% endfor %}
 
 
 
