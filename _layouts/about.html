@@ -6,29 +6,36 @@ layout: default
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    .academiccontainer {
+    #academiccontainer {
       width: 100%;
       display: block;
-      float:left
+    
     }
 
-    .words1 {
-      float:left;
-    }
-    .words2 {
-      float:right;
-    }
 
-    @media only screen and (max-width:700px) {
-      .words1 {
-        float:top;
+    @media (min-width:500px){
+      .bioword1 {
+        float:left;
       }
-      .words2 {
-        float:bottom;
+      .bioword2 {
+        float:right;
       }
     }
+    
+
+
+    @media screen and (max-width:500px)  {
+    .bioword1 {
+      float:top !important;
+    }
+    .bioword2 {
+      float:bottom !important;
+    }
+  }
  
   </style>
+  
+
 </head>
 
 
@@ -81,42 +88,42 @@ layout: default
           <hr>
 
 
-          <div class = "academiccontainer">
+          <div id = "academiccontainer">
             <p style="font-size: 25px; font-weight:bold">Academic Positions</p>
             
-            <div class = "words1" style="font-weight:bold">Yale University, School of Management</div>
-            <div class = "words2">New Haven, CT</div>
+            <div class = "bioword1" style="font-weight:bold">Yale University, School of Management</div>
+            <div class = "bioword2">New Haven, CT</div>
             <br>
-            <div class ="words1">Assistant Professor of Marketing</div>
-            <div class="words2">2023 - present</div>
+            <div class ="bioword1">Assistant Professor of Marketing</div>
+            <div class="bioword2">2023 - present</div>
             <br> <br>
     
-            <div class = "words1" style="font-weight:bold">University of Iowa, Tippie College of Business</div>
-            <div class = "words2">Iowa City, IA</div><br>
-            <div class = "words1"> Assistant Professor of Business Analytics</div>
-            <div class = "words2">2016 - 2023</div><br>
-            <div class = "words1" style="font-style: italic;">(Promotion and Tenure Granted in 2023)</div>
+            <div class = "bioword1" style="font-weight:bold">University of Iowa, Tippie College of Business</div>
+            <div class = "bioword2">Iowa City, IA</div><br>
+            <div class = "bioword1"> Assistant Professor of Business Analytics</div>
+            <div class = "bioword2">2016 - 2023</div><br>
+            <div class = "bioword1" style="font-style: italic;">(Promotion and Tenure Granted in 2023)</div>
             <br><hr>
           </div>          
 
-          <div class = "academiccontainer">
+          <div id = "academiccontainer">
             <p style="font-size: 25px; font-weight:bold">Education</p>
             
-              <div class = "words1" style="font-weight:bold">Massachusetts Institute of Technology</div>
-              <div class="words2">Cambridge, MA</div>
+              <div class = "bioword1" style="font-weight:bold">Massachusetts Institute of Technology</div>
+              <div class="bioword2">Cambridge, MA</div>
             <br>
-              <div class = "words1">Ph.D. in Computer Science</div>
-              <div class="words2">2012 - 2016</div>
+              <div class = "bioword1">Ph.D. in Computer Science</div>
+              <div class="bioword2">2012 - 2016</div>
             <br>
-              <div class="words1">M.S. in Electrical Engineering and Computer Science</div>
-              <div class="words2">2010 - 2012</div>
+              <div class="bioword1">M.S. in Electrical Engineering and Computer Science</div>
+              <div class="bioword2">2010 - 2012</div>
               <br><br>
 
-              <div class="words1" style="font-weight:bold">Beijing University of Posts and Telecommunications</div>
-              <div class="words2">Beijing, China</div>
+              <div class="bioword1" style="font-weight:bold">Beijing University of Posts and Telecommunications</div>
+              <div class="bioword2">Beijing, China</div>
               <br>
-              <div class="words1">B.S. in Electrical Engineering with <span style="font-style: italic;">Highest Distinction</span></div>
-              <div class="words2">2006 - 2010</div>
+              <div class="bioword1">B.S. in Electrical Engineering with <span style="font-style: italic;">Highest Distinction</span></div>
+              <div class="bioword2">2006 - 2010</div>
             <br><hr>
           </div>  
 
