@@ -2,36 +2,33 @@
 layout: default
 ---
 <!-- about.html -->
-<meta name="viewport" content="width=device-width">
+
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-  .academiccontainer {
-    width: 100%;
-    display: block;
-    float:left
-  }
+    .academiccontainer {
+      width: 100%;
+      display: block;
+      float:left
+    }
 
-  .words1 {
-    float:left;
-  }
-
-  .words2 {
-    float:right;
-  }
-
-  /* Media queries for different screen sizes */
-
-  /* For small screen */
-  @media only screen and (max-width:768px) and (orientation:portrait) {
     .words1 {
-      float: top;
+      float:left;
     }
     .words2 {
-      float: bottom;
+      float:right;
     }
-  }
+
+    @media only screen and (max-width:700px) {
+      .words1 {
+        float:top;
+      }
+      .words2 {
+        float:bottom;
+      }
+    }
  
-</style>
+  </style>
 </head>
 
 
