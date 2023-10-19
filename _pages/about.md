@@ -6,7 +6,7 @@ subtitle:  Assistant Professor of Marketing <br> School of Management, Yale Univ
 
 profile:
   align: right
-  image: prof_pic.PNG
+  image: prof_new.jpg
   image_circular: false # crops the image to make it circular
   address: 165 Whitney Ave <br> New Haven, CT 06511 
   
