@@ -15,7 +15,7 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="preprints">
 
-{% bibliography --file preprints %}
+{% bibliography --file business %}
 
 </div>
 
