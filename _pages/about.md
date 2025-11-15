@@ -6,7 +6,7 @@ subtitle: Yale School of Management
 
 profile:
   align: right
-  image: prof_wang2.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
@@ -20,7 +20,6 @@ announcements:
   limit: 6  # leave blank to include all the news in the `_news` folder
 
 ---
-Tong Wang’s research interests are in developing machine learning solutions for business problems. Her work focuses on creating novel interpretable models that can effectively represent and analyze structured and unstructured data, such as texts and images. The orveraching objective of these interpretable models is to extract valuable insights from the data, empowering stakeholders to make well-informed decisions while also facilitating a clear understanding of the decision-making processes employed by the models.
+Tong Wang is an Assistant Professor of Marketing at the Yale School of Management. Her research centers on developing machine learning solutions for complex business problems. She focuses on designing novel, interpretable models capable of effectively representing and analyzing both structured and unstructured data, including text and images. A unifying goal of her work is to enable stakeholders to extract meaningful insights from data and to make well-informed decisions while maintaining a clear understanding of how the underlying models operate.
 
-
-Prior to joining Yale, Tong actively pursued research on machine learning solutions for various real-world challenges. Her work on crime pattern detection was included in Wikipedia Crime Analysis. The ideas from her algorithm was adopted by the New York Police Department's application Patternizr and has been running live in NYC since 2016. Tong also contributed to the development of an interpretable model for the FICO challenge of credit risk assessment in 2018, outperforming black-box machine learning models and earning the FICO Recognition Award.
+Before joining Yale, Tong conducted research on machine learning methods addressing a range of real-world challenges. Her work on crime pattern detection has been featured in the Crime Analysis entry on Wikipedia, and key ideas from her algorithm were incorporated into the New York Police Department’s Patternizr system, which has been deployed citywide since 2016. She also developed an interpretable model for the 2018 FICO credit risk assessment challenge that surpassed the performance of several black-box machine learning approaches, earning her the FICO Recognition Award.
