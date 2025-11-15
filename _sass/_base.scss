@@ -1418,6 +1418,18 @@ footer.sticky-bottom {
   }
 }
 
+.news .news-scroll {
+  max-height: 8vw;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 575.98px) {
+  .news .news-scroll {
+    max-height: 60vh;
+  }
+}
+
 
 
 // Rouge Color Customization
@@ -1978,4 +1990,27 @@ figure.cover {
 .profile .contact-icons a {
 font-size: 3.0rem; // tweak until they fit nicely
 line-height: 1;
+}
+
+.pdf-container {
+  width: 100%;
+  min-height: 100vh;
+  height: 100vh;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.pdf-container iframe,
+.pdf-frame {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media (min-width: 992px) {
+  .pdf-container {
+    min-height: 130vh;
+    height: 130vh;
+  }
 }

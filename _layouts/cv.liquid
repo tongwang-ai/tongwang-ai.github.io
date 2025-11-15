@@ -18,27 +18,13 @@ layout: default
     <p class="post-description">{{ page.description }}</p>
   </header>
 
-  <style>
-    .pdf-container {
-      width: 100%;
-      height: 100vh;        /* full viewport height */
-      overflow: auto;
-      -webkit-overflow-scrolling: touch;
-    }
-    .pdf-frame {
-      display: block;
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-  </style>
-
   <div class="pdf-container">
     <iframe
       class="pdf-frame"
       src="{{ '/assets/pdf/' | append: page.cv_pdf | relative_url }}#view=FitH"
       title="{{ page.title }} CV PDF"
-      allow="fullscreen">
+      allow="fullscreen"
+      scrolling="yes">
     </iframe>
   </div>
 
