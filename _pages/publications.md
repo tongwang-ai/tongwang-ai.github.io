@@ -28,7 +28,7 @@ description:  † student under my supervision, * correponding author
 
 ---
 
-## **Machine Learning Methods (Journal and Top Conference)**
+## **Machine Learning Methods**
 <!-- _pages/publications.md -->
 <div class="publications">
 
