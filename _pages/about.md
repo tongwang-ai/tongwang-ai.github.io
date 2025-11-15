@@ -9,7 +9,6 @@ profile:
   image: prof_wang2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>165 Whitney Ave, New Haven, CT</p>
 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"

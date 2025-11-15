@@ -67,7 +67,13 @@ layout: default
           %}
         {% endif %}
         {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+          {% comment %} <div class="more-info">{{ page.profile.more_info }}</div> {% endcomment %}
+          {% if page.social %}
+             <div class="social under-photo">
+              <div class="contact-icons">{% include social.liquid %}</div>
+            </div>
+     {% endif %}
+
         {% endif %}
       </div>
     {% endif %}
@@ -132,14 +138,14 @@ layout: default
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
-
+{% comment %} 
         {% if page.social %}
           <div class="social">
             <div class="contact-icons">{% include social.liquid %}</div>
 
             <div class="contact-note">{{ site.contact_note }}</div>
           </div>
-        {% endif %}
+        {% endif %} {% endcomment %}
         </article>
 
 </div>

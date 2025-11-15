@@ -1937,3 +1937,16 @@ figure.cover {
     color: #23212d !important;
   }
 }
+.profile .contact-icons {
+  display: flex;
+  flex-wrap: wrap;          // lets them shrink on smaller screens
+  justify-content: center;  // center under the photo
+  gap: 1.2rem;
+  margin-top: 0.1rem;   // reduce space above
+  margin-bottom: 0rem; // reduce space below (or 0 if you want none)
+}
+
+.profile .contact-icons a {
+font-size: 3.2rem; // tweak until they fit nicely
+line-height: 1;
+}

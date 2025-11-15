@@ -31,12 +31,22 @@ body.sticky-bottom-footer {
   max-width: $max-content-width;
 }
 
+// // Profile
+// .profile {
+//   img {
+//     width: 100%;
+//   }
+// }
+
 // Profile
 .profile {
+  max-width: 260px;      // adjust to taste
+  margin-bottom: 0.3rem; // keeps content from wrapping too tightly
   img {
     width: 100%;
   }
 }
+
 
 // TODO: redefine content layout.
 
