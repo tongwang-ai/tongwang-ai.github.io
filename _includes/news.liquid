@@ -4,14 +4,14 @@
     <div
       class="table-responsive"
       {% if include.limit and page.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw"
+        style="max-height: 8vw;  overflow-y: auto; -webkit-overflow-scrolling: touch; "
       {% endif %}
     >
       <table class="table table-sm table-borderless">
         {% assign news = site.news | reverse %}
         {% if include.limit and page.announcements.limit %}
           {% assign news_limit = page.announcements.limit %}
-        {% else %}
+        {% else %}`
           {% assign news_limit = news_size %}
         {% endif %}
         {% for item in news limit: news_limit %}

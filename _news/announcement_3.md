@@ -1,8 +1,10 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2023-08-06
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Paper "Sparse and Faithful Explanations without Sparse Models” has been selected as one of the four finalists for the INFORMS 2023 Data Mining Best Paper Award Competition (General Track). 
+
+ 
