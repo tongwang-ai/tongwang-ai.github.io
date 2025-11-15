@@ -459,13 +459,6 @@ ninja.data = [{
           window.open("mailto:%74%6F%6E%67.%77%61%6E%67.%74%77%36%38%37@%79%61%6C%65.%65%64%75", "_blank");
         },
       },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/tongwang-ai", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
