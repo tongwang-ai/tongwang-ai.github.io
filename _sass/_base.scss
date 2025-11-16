@@ -231,6 +231,15 @@ ul.task-list input[type="checkbox"] {
     width: 100%;
     height: auto;
   }
+
+  .profile-wrapper {
+    order: -1; // ensure profile appears before content in flex parents
+  }
+
+  .post article {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 576px) {
