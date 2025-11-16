@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Yale School of Management
+subtitle: Yale School of Management, New Haven, CT
 
 profile:
   align: right
