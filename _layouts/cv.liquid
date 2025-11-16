@@ -18,14 +18,31 @@ layout: default
     <p class="post-description">{{ page.description }}</p>
   </header>
 
-  <div class="pdf-container">
-    <iframe
-      class="pdf-frame"
-      src="{{ '/assets/pdf/' | append: page.cv_pdf | relative_url }}#view=FitH"
-      title="{{ page.title }} CV PDF"
-      allow="fullscreen"
-      scrolling="yes">
-    </iframe>
+  {% if page.cv_pdf %}
+    <div class="cv-mobile-download">
+      <div class="cv-external-link">
+        <a
+          class="btn btn-sm z-depth-0"
+          href="{{ '/assets/pdf/' | append: page.cv_pdf | relative_url }}"
+          target="_blank"
+          rel="noopener noreferrer">
+          Open CV PDF in new tab
+        </a>
+      </div>
+      <p>If your browser does not allow scrolling inside the viewer below, use the link above.</p>
+    </div>
+  {% endif %}
+
+  <div class="cv-iframe-wrapper">
+    <div class="pdf-container">
+      <iframe
+        class="pdf-frame"
+        src="{{ '/assets/pdf/' | append: page.cv_pdf | relative_url }}#view=FitH"
+        title="{{ page.title }} CV PDF"
+        allow="fullscreen"
+        scrolling="yes">
+      </iframe>
+    </div>
   </div>
 
 </div>
