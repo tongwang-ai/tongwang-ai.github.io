@@ -30,7 +30,7 @@ linkedin_username: tong-wang-082b9a17 # your LinkedIn user name
 # research_gate_profile: # your profile on ResearchGate
 # rss_icon: true # comment this line to hide the RSS icon
 scholar_userid: KB6A0esAAAAJ # your Google Scholar ID
-github_username: tongwang-ai # your GitHub user name
+# github_username: tongwang-ai # your GitHub user name
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
@@ -41,7 +41,7 @@ github_username: tongwang-ai # your GitHub user name
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
-# work_url: # work page URL
+work_url: https://som.yale.edu/faculty-research/faculty-directory/tong-wang
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
