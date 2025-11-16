@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Yale School of Management, New Haven, CT
+subtitle: Asistant Professor of Marketing <br> Yale School of Management, New Haven, CT
 
 profile:
   align: right
