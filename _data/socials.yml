@@ -10,7 +10,6 @@
 email: tong.wang.tw687@yale.edu # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
-#github_username: tongwang-ai # your GitHub user name
 # gitlab_username: # your GitLab user name
 # ieee_id: # your ieeexplore.ieee.org/author/id
 #inspirehep_id: 1010907 # Inspire HEP author ID
@@ -31,6 +30,7 @@ linkedin_username: tong-wang-082b9a17 # your LinkedIn user name
 # research_gate_profile: # your profile on ResearchGate
 # rss_icon: true # comment this line to hide the RSS icon
 scholar_userid: KB6A0esAAAAJ # your Google Scholar ID
+github_username: tongwang-ai # your GitHub user name
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
