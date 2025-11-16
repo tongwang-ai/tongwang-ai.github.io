@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: Curriculum Vitae
+title: CV
 nav: true
 nav_order: 5
 cv_pdf: Wang_2025.pdf # you can also use external links here
