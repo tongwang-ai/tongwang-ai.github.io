@@ -473,6 +473,13 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=KB6A0esAAAAJ", "_blank");
         },
       },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/tongwang-ai", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
