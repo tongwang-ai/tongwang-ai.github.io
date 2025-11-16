@@ -1428,14 +1428,14 @@ footer.sticky-bottom {
 }
 
 .news .news-scroll {
-  max-height: 8vw;
+  max-height: 10vw;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
 
 @media (max-width: 575.98px) {
   .news .news-scroll {
-    max-height: 60vh;
+    max-height: 50vh;
   }
 }
 
