@@ -23,10 +23,39 @@ module ExternalPosts
     end
 
     def fetch_from_rss(site, src)
-      xml = HTTParty.get(src['rss_url']).body
-      return if xml.nil?
-      feed = Feedjira.parse(xml)
-      process_entries(site, src, feed.entries)
+      response = nil
+      begin
+        response = HTTParty.get(src['rss_url'])
+      rescue StandardError => e
+        Jekyll.logger.warn 'ExternalPosts', "Failed to fetch #{src['rss_url']}: #{e.message}"
+        return
+      end
+
+      if response.nil? || !response.respond_to?(:body) || response.body.nil? || response.body.strip.empty?
+        Jekyll.logger.warn 'ExternalPosts', "Empty RSS response for #{src['rss_url']}"
+        return
+      end
+
+      status_code = response.respond_to?(:code) ? response.code.to_i : nil
+      unless status_code && status_code >= 200 && status_code < 300
+        Jekyll.logger.warn 'ExternalPosts', "Unexpected HTTP status #{status_code || 'unknown'} for #{src['rss_url']}"
+        return
+      end
+
+      begin
+        feed = Feedjira.parse(response.body)
+      rescue Feedjira::NoParserAvailable, StandardError => e
+        Jekyll.logger.warn 'ExternalPosts', "Unable to parse RSS feed #{src['rss_url']}: #{e.message}"
+        return
+      end
+
+      entries = feed&.entries
+      if entries.nil? || entries.empty?
+        Jekyll.logger.warn 'ExternalPosts', "No entries returned for #{src['rss_url']}"
+        return
+      end
+
+      process_entries(site, src, entries)
     end
 
     def process_entries(site, src, entries)
