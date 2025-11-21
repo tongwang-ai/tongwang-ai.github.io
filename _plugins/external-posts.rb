@@ -31,7 +31,13 @@ module ExternalPosts
         return
       end
 
-      if response.nil? || !response.respond_to?(:body) || response.body.nil? || response.body.strip.empty?
+      if !response || !response.respond_to?(:body)
+        Jekyll.logger.warn 'ExternalPosts', "Empty RSS response for #{src['rss_url']}"
+        return
+      end
+
+      body = response.body
+      if body.nil? || body.strip.empty?
         Jekyll.logger.warn 'ExternalPosts', "Empty RSS response for #{src['rss_url']}"
         return
       end
@@ -43,7 +49,7 @@ module ExternalPosts
       end
 
       begin
-        feed = Feedjira.parse(response.body)
+        feed = Feedjira.parse(body)
       rescue Feedjira::NoParserAvailable, StandardError => e
         Jekyll.logger.warn 'ExternalPosts', "Unable to parse RSS feed #{src['rss_url']}: #{e.message}"
         return

@@ -1,6 +1,8 @@
 // stacking icons
 // -------------------------
 
+@use './variables' as *;
+
 .#{$fa-css-prefix}-stack {
   display: inline-block;
   height: 2em;
@@ -30,3 +32,4 @@
 .#{$fa-css-prefix}-inverse {
   color: var(--#{$fa-css-prefix}-inverse, #{$fa-inverse});
 }
+

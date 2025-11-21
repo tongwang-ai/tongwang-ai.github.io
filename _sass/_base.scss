@@ -2,6 +2,8 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+@use "variables" as *;
+
 // Typography
 
 p,
@@ -47,6 +49,18 @@ table.table a {
   &:hover:after :not(.nav-item.dropdown) {
     width: 100%;
   }
+}
+
+.ti {
+  font-family: 'tabler-icons' !important;
+}
+
+.ti[class*="-filled"]::before {
+  font-family: 'tabler-icons-filled' !important;
+}
+
+.ti[class*="-outline"]::before {
+  font-family: 'tabler-icons-outline' !important;
 }
 
 .table-dark {
