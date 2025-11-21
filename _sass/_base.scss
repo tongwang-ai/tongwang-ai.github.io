@@ -755,7 +755,7 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: $grey-color-dark;
+    color: var(--global-pubyear-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
@@ -928,7 +928,7 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: $grey-color;// var(--global-divider-color);   // change the color of year at right of paper
+    color: var(--global-pubyear-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
@@ -1102,7 +1102,7 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: $grey-color-dark; // change the color of year at right of paper
+    color: var(--global-pubyear-color); // change the color of year at right of paper
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
@@ -1276,7 +1276,7 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: $grey-color-dark;
+    color: var(--global-pubyear-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
@@ -2072,3 +2072,4 @@ line-height: 1;
     height: 130vh;
   }
 }
+
