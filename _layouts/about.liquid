@@ -128,9 +128,11 @@ layout: default
       
           <!-- News -->
           {% if page.announcements and page.announcements.enabled  -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;"><strong>Recent News</strong></a></h2>
-             {% include news.liquid limit=true %}
+            <p style="font-size: 25px; font-weight:bold;"> <a href="{{ '/news/' | relative_url }}" style="color: inherit;">Recent News</a></p> 
+              {% include news.liquid limit=true %}
           {%- endif %}
+
+          
 
    
           <!-- Selected papers -->
