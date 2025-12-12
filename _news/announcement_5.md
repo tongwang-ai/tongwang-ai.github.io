@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "ProtoPairNet: Interpretable Regression through Prototypical Pair Reasoning" has been accepted at NeurIPS 2015 (main conference) 
+Our paper "ProtoPairNet: Interpretable Regression through Prototypical Pair Reasoning" has been accepted at NeurIPS 2025 (main conference) 
