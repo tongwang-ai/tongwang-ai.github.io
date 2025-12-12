@@ -407,7 +407,7 @@ ninja.data = [{
           section: "News",},{id: "news-paper-sparse-and-faithful-explanations-without-sparse-models-has-been-selected-as-the-winner-of-the-informs-2023-data-mining-best-paper-award-competition-general-track",
           title: 'Paper “Sparse and Faithful Explanations without Sparse Models” has been selected as the...',
           description: "",
-          section: "News",},{id: "news-our-paper-protopairnet-interpretable-regression-through-prototypical-pair-reasoning-has-been-accepted-at-neurips-2015-main-conference",
+          section: "News",},{id: "news-our-paper-protopairnet-interpretable-regression-through-prototypical-pair-reasoning-has-been-accepted-at-neurips-2025-main-conference",
           title: 'Our paper “ProtoPairNet: Interpretable Regression through Prototypical Pair Reasoning” has been accepted at...',
           description: "",
           section: "News",},{id: "news-invited-talk-why-it-works-can-llm-hypotheses-improve-ai-generated-marketing-content-at-amazon-advertising",
