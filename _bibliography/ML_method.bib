@@ -8,7 +8,8 @@ author = {Molero Del Rio, M. Cristina and Li, Boxuan and Wang, Tong and Rudin, C
 year = {2026},
 journal = {Machine Learning},
 url = {https://link.springer.com/article/10.1007/s10994-026-07108-9},
-keywords = {ML}
+keywords = {ML},
+  abstract = {A sparse rule set (SRS) is a small predictive model that is a disjunctive normal form – an “OR of ANDs”. SRS models are understandable to human experts and robust to outliers. Constructing an SRS efficiently has always been one of the fundamental problems of interpretable machine learning. However, the practical challenge goes beyond simply optimizing for a single sparse SRS; the first interpretable model an algorithm finds often has flaws that need to be fixed. Thus, constructing a model for practical use involves human interaction with an algorithm. If we work within the Rashomon set paradigm, we would generate many models that a human can explore; this simplifies the interaction, but requires generating a large pool of models, which is computationally demanding. This work presents FastSRS, an efficient algorithm for generating a large quantity of high quality SRS models. Its key advantage is a set of theoretical bounds that efficiently reduces the size of the search space to enable fast computation. FastSRS produces models on the accuracy vs. sparsity frontier more consistently and efficiently than previous approaches, scales better to larger datasets, and sets a new state of the art for generating Rashomon sets for SRSs.}
 }
 
 @article{Gurung2025proto,
@@ -18,7 +19,8 @@ author = {Gurung, Rose and Ragodos†, Ronilo and Ma, Chiyu and Wang, Tong and C
 year = {2025},
 journal = {Advances in Neural Information Processing Systems},
 url = {https://neurips.cc/virtual/2025/loc/san-diego/poster/116750},
-keywords = {ML}
+keywords = {ML},
+  abstract = {We present Prototypical Pair Network (ProtoPairNet), a novel interpretable architecture that combines deep learning with case-based reasoning to predict continuous targets. While prototype-based models have primarily addressed image classification with discrete outputs, extending these methods to continuous targets, such as regression, poses significant challenges. Existing architectures which rely heavily on one-to-one comparison with prototypes lack the directional information necessary for continuous predictions. Our method redefines the role of prototypes in such tasks by incorporating prototypical pairs into the reasoning process. Predictions are derived based on the input's relative dissimilarities to these pairs, leveraging an intuitive geometric interpretation. Our method further reduces the complexity of the reasoning process by relying on the single most relevant pair of prototypes, rather than all prototypes in the model as was done in prior works. Our model is versatile enough to be used in both vision-based regression and continuous control in reinforcement learning. Our experiments demonstrate that ProtoPairNet achieves performance on par with its black-box counterparts across these tasks. Comprehensive analyses confirm the meaningfulness of prototypical pairs and the faithfulness of our model's interpretations, and extensive user studies highlight our model's improved interpretability over existing methods.}
 }
 
 @article{wang2025pie,
@@ -29,7 +31,8 @@ abbr = {IJOC},
   url = {https://pubsonline.informs.org/doi/10.1287/ijoc.2022.0098},
   year={2025},
   publisher={INFORMS},
-  keywords = {business}
+  keywords = {business},
+  abstract = {We propose a new form of predictive models, Partially Interpretable Estimators (PIE), which jointly train an interpretable model and a black-box model to achieve partial model transparency while maintaining high predictive performance. Our design is motivated by prior research showing that interpretability does not require exposing all model details. Therefore, our objective is to explain the main components of the prediction, withholding complicated calculations that may not be necessary for users. PIE is designed to attribute a prediction to the contribution from individual features via a sparse linear additive model to achieve interpretability while complementing the prediction with a black-box model to boost the predictive performance. As such, the linear additive model captures the primary feature contributions, while the black-box component augments PIE’s predictive power by capturing the “nuances” of feature interactions as a refinement. Moreover, we include a sparsity constraint, allowing users to adjust the model to meet domain-specific needs of interpretability. To optimize predictive performance, we propose a coordinated training algorithm that jointly trains the two components of PIE. Experimental results show that PIE achieves accuracy comparable to state-of-the-art black-box models, with human assessments confirming that its interpretability is nearly equivalent to linear models.}
 }
 
 
@@ -42,7 +45,8 @@ author = {Sun, Yiyang and Wang, Tong and Rudin, Cynthia},
 year = {2024},
 journal = {Advances in Neural Information Processing Systems},
 url = {https://papers.nips.cc/paper_files/paper/2024/file/2e5060adc71166792bc6e5251240eba4-Paper-Conference.pdf},
-keywords = {ML}
+keywords = {ML},
+  abstract = {Sparsity is a central aspect of interpretability in machine learning. Typically, sparsity is measured in terms of the size of a model globally, such as the number of variables it uses. However, this notion of sparsity is not particularly relevant for decision making; someone subjected to a decision does not care about variables that do not contribute to the decision. In this work, we dramatically expand a notion of decision sparsity called the Sparse Explanation Value (SEV) so that its explanations are more meaningful. SEV considers movement along a hypercube towards a reference point. By allowing flexibility in that reference and by considering how distances along the hypercube translate to distances in feature space, we can derive sparser and more meaningful explanations for various types of function classes. We present cluster-based SEV and its variant tree-based SEV, introduce a method that improves credibility of explanations, and propose algorithms that optimize decision sparsity in machine learning models.}
 }
 
 @article{sun2024sev,
@@ -52,7 +56,8 @@ author = {Sun, Yiyang and Chen, Zhi and Orlandi,  Vittorio  and Wang, Tong and R
 journal = {International conference on artificial intelligence and statistics},
 url = {https://proceedings.mlr.press/v238/sun24b/sun24b.pdf},
 year = {2024},
-award = {Winner of Data Mining Best Paper Award, INFORMS, 2023.}
+award = {Winner of Data Mining Best Paper Award, INFORMS, 2023.},
+  abstract = {Even if a model is not globally sparse, it is possible for decisions made from that model to be accurately and faithfully described by a small number of features. For instance, an application for a large loan might be denied to someone because they have no credit history, which overwhelms any evidence towards their creditworthiness. In this work, we introduce the Sparse Explanation Value (SEV), a new way of measuring sparsity in machine learning models. In the loan denial example above, the SEV is 1 because only one factor is needed to explain why the loan was denied. SEV is a measure of decision sparsity rather than overall model sparsity, and we are able to show that many machine learning models – even if they are not sparse – actually have low decision sparsity, as measured by SEV. SEV is defined using movements over a hypercube, allowing SEV to be defined consistently over various model classes, with movement restrictions reflecting real-world constraints. Our algorithms reduce SEV without sacrificing accuracy, providing sparse and completely faithful explanations, even without globally sparse models.}
 }
 
 @article{hong2020interpretable,
