@@ -908,11 +908,14 @@ footer.sticky-bottom {
       }
 
       div.abstract.hidden {
-        border: dashed 1px var(--global-bg-color);
+        border: 1px solid transparent;
+        border-radius: 6px;
       }
 
       div.abstract.hidden.open {
-        border-color: var(--global-text-color);
+        background-color: var(--global-abstract-bg-color);
+        border-color: var(--global-divider-color);
+        margin-top: 0.5rem;
       }
     }
   }
@@ -1081,11 +1084,14 @@ footer.sticky-bottom {
       }
 
       div.abstract.hidden {
-        border: dashed 1px var(--global-bg-color);
+        border: 1px solid transparent;
+        border-radius: 6px;
       }
 
       div.abstract.hidden.open {
-        border-color: var(--global-text-color);
+        background-color: var(--global-abstract-bg-color);
+        border-color: var(--global-divider-color);
+        margin-top: 0.5rem;
       }
     }
   }
@@ -1255,11 +1261,14 @@ footer.sticky-bottom {
       }
 
       div.abstract.hidden {
-        border: dashed 1px var(--global-bg-color);
+        border: 1px solid transparent;
+        border-radius: 6px;
       }
 
       div.abstract.hidden.open {
-        border-color: var(--global-text-color);
+        background-color: var(--global-abstract-bg-color);
+        border-color: var(--global-divider-color);
+        margin-top: 0.5rem;
       }
     }
   }
@@ -1430,11 +1439,14 @@ footer.sticky-bottom {
       }
 
       div.abstract.hidden {
-        border: dashed 1px var(--global-bg-color);
+        border: 1px solid transparent;
+        border-radius: 6px;
       }
 
       div.abstract.hidden.open {
-        border-color: var(--global-text-color);
+        background-color: var(--global-abstract-bg-color);
+        border-color: var(--global-divider-color);
+        margin-top: 0.5rem;
       }
     }
   }
