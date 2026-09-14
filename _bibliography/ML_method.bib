@@ -69,7 +69,8 @@ award = {Winner of Data Mining Best Paper Award, INFORMS, 2023.},
   url = {https://www.jmlr.org/papers/volume24/21-0899/21-0899.pdf},
   year={2023},
   code = {https://github.com/dathong/ProtoryNet},
-keywords = {ML}
+keywords = {ML},
+  abstract = {We propose a novel interpretable deep neural network for text classification, called ProtoryNet, based on a new concept of prototype trajectories. Motivated by the prototype theory in modern linguistics, ProtoryNet makes a prediction by finding the most similar prototype for each sentence in a text sequence and feeding an RNN backbone with the proximity of each sentence to the corresponding active prototype. The RNN backbone then captures the temporal pattern of the prototypes, which we refer to as prototype trajectories. Prototype trajectories enable intuitive and fine-grained interpretation of the reasoning process of the RNN model, in resemblance to how humans analyze texts. We also design a prototype pruning procedure to reduce the total number of prototypes used by the model for better interpretability. Experiments on multiple public datasets demonstrate that ProtoryNet achieves higher accuracy than the baseline prototype-based deep neural net and narrows the performance gap when compared to state-of-the-art black-box models. In addition, after prototype pruning, the resulting ProtoryNet models only need less than or around 20 prototypes for all datasets, which significantly benefits interpretability. Furthermore, we report survey results indicating that human users find ProtoryNet more intuitive and easier to understand compared to other prototype-based methods.}
 }
 
 @article{ragodos2022protox,
@@ -82,7 +83,8 @@ abbr = {NeurIPS},
   volume={35},
   pages={27239--27252},
   year={2022},
-keywords = {ML}
+keywords = {ML},
+  abstract = {While deep reinforcement learning has proven to be successful in solving control tasks, the "black-box" nature of an agent has received increasing concerns. We propose a prototype-based post-hoc policy explainer, ProtoX, that explains a black-box agent by prototyping the agent's behaviors into scenarios, each represented by a prototypical state. When learning prototypes, ProtoX considers both visual similarity and scenario similarity. The latter is unique to the reinforcement learning context since it explains why the same action is taken in visually different states. To teach ProtoX about visual similarity, we pre-train an encoder using contrastive learning via self-supervised learning to recognize states as similar if they occur close together in time and receive the same action from the black-box agent. We then add an isometry layer to allow ProtoX to adapt scenario similarity to the downstream task. ProtoX is trained via imitation learning using behavior cloning, and thus requires no access to the environment or agent. In addition to explanation fidelity, we design different prototype shaping terms in the objective function to encourage better interpretability. We conduct various experiments to test ProtoX. Results show that ProtoX achieved high fidelity to the original black-box agent while providing meaningful and understandable explanations.}
 }
 
 @article{wang2017bayesian,
@@ -96,7 +98,8 @@ abbr = {JMLR},
   pages={2357--2393},
   year={2017},
   code = {https://github.com/wangtongada/BOA},
-keywords = {ML}
+keywords = {ML},
+  abstract = {We present a machine learning algorithm for building classifiers that are comprised of a small number of short rules. These are restricted disjunctive normal form models. An example of a classifier of this form is as follows: If X satisfies (condition A AND condition B) OR (condition C) OR ..., then Y=1. Models of this form have the advantage of being interpretable to human experts since they produce a set of rules that concisely describe a specific class. We present two probabilistic models with prior parameters that the user can set to encourage the model to have a desired size and shape, to conform with a domain-specific definition of interpretability. We provide a scalable MAP inference approach and develop theoretical bounds to reduce computation by iteratively pruning the search space. We apply our method (Bayesian Rule Sets, BRS) to characterize and predict user behavior with respect to in-vehicle context-aware personalized recommender systems. Our method has a major advantage over classical associative classification methods and decision trees in that it does not greedily grow the model.}
 }
 
 
@@ -110,7 +113,8 @@ abbr = {ICML},
   pages={6505--6514},
   year={2019},
   code = {https://github.com/wangtongada/HyRS},
-keywords = {ML}
+keywords = {ML},
+  abstract = {This work addresses the situation where a black-box model with good predictive performance is chosen over its interpretable competitors, and we show interpretability is still achievable in this case. Our solution is to find an interpretable substitute on a subset of data where the black-box model is overkill or nearly overkill while leaving the rest to the black-box. This transparency is obtained at minimal cost or no cost of the predictive performance. Under this framework, we develop a Hybrid Rule Sets (HyRS) model that uses decision rules to capture the subspace of data where the rules are as accurate or almost as accurate as the black-box provided. To train a HyRS, we devise an efficient search algorithm that iteratively finds the optimal model and exploits theoretically grounded strategies to reduce computation. Our framework is agnostic to the black-box during training. Experiments on structured and text data show that HyRS obtains an effective trade-off between transparency and interpretability.}
 }
 
 
@@ -126,7 +130,8 @@ abbr = {IJOC},
   pages={1626--1643},
   year={2022},
   publisher={INFORMS},
-keywords = {business}
+keywords = {business},
+  abstract = {A key question in causal inference analyses is how to find subgroups with elevated treatment effects. This paper takes a machine learning approach and introduces a generative model, causal rule sets (CRS), for interpretable subgroup discovery. A CRS model uses a small set of short decision rules to capture a subgroup in which the average treatment effect is elevated. We present a Bayesian framework for learning a causal rule set. The Bayesian model consists of a prior that favors simple models for better interpretability as well as avoiding overfitting and a Bayesian logistic regression that captures the likelihood of data, characterizing the relation between outcomes, attributes, and subgroup membership. The Bayesian model has tunable parameters that can characterize subgroups with various sizes, providing users with more flexible choices of models from the treatment-efficient frontier. We find maximum a posteriori models using iterative discrete Monte Carlo steps in the joint solution space of rules sets and parameters. To improve search efficiency, we provide theoretically grounded heuristics and bounding strategies to prune and confine the search space. Experiments show that the search algorithm can efficiently recover true underlying subgroups. We apply CRS on public and real-world data sets from domains in which interpretability is indispensable. We compare CRS with state-of-the-art rule-based subgroup discovery models. Results show that CRS achieves consistently competitive performance on data sets from various domains, represented by high treatment-efficient frontiers.}
 }
 
 @article{wang2021hybrid,
@@ -140,7 +145,8 @@ abbr = {JMLR},
   pages={6085--6122},
   year={2021},
   publisher={JMLRORG},
-keywords = {ML}
+keywords = {ML},
+  abstract = {Interpretable machine learning has become a strong competitor for black-box models. However, the possible loss of the predictive performance for gaining understandability is often inevitable, especially when it needs to satisfy users with diverse backgrounds or high standards for what is considered interpretable. This tension puts practitioners in a dilemma of choosing between high accuracy (black-box models) and interpretability (interpretable models). In this work, we propose a novel framework for building a Hybrid Predictive Model that integrates an interpretable model with any pre-trained black-box model to combine their strengths. The interpretable model substitutes the black-box model on a subset of data where the interpretable model is most competent, gaining transparency at a low cost of the predictive accuracy. We design a principled objective function that considers predictive accuracy, model interpretability, and model transparency (defined as the percentage of data processed by the interpretable substitute.) Under this framework, we propose two hybrid models, one substituting with association rules and the other with linear models, and design customized training algorithms for both models. We test the hybrid models on structured data and text data where interpretable models collaborate with various state-of-the-art black-box models. Results show that hybrid models obtain an efficient trade-off between transparency and predictive performance, characterized by pareto frontiers. Finally, we apply the proposed model on a real-world patients dataset for predicting cardiovascular disease and propose multi-model Pareto frontiers to assist model selection in real applications.}
 }
 
 @article{wang2018multi,
@@ -152,7 +158,8 @@ abbr = {NeurIPS},
   volume={31},
   year={2018},
   code = {https://github.com/wangtongada/MRS},
-keywords = {ML}
+keywords = {ML},
+  abstract = {We present the Multi-value Rule Set (MRS) for interpretable classification with feature efficient presentations. Compared to rule sets built from single-value rules, MRS adopts a more generalized form of association rules that allows multiple values in a condition. Rules of this form are more concise than classical single-value rules in capturing and describing patterns in data. Our formulation also pursues a higher efficiency of feature utilization, which reduces possible cost in data collection and storage. We propose a Bayesian framework for formulating an MRS model and develop an efficient inference method for learning a maximum a posteriori, incorporating theoretically grounded bounds to iteratively reduce the search space and improve the search efficiency. Experiments on synthetic and real-world data demonstrate that MRS models have significantly smaller complexity and fewer features than baseline models while being competitive in predictive accuracy.}
 }
 
 @article{pan2020interpretable,
@@ -164,7 +171,8 @@ abbr = {AISTATS},
   pages={2444--2454},
   year={2020},
   organization={PMLR},
-keywords = {ML}
+keywords = {ML},
+  abstract = {We present an interpretable companion model for any pre-trained black-box classifiers. The idea is that for any input, a user can decide to either receive a prediction from the black-box model, with high accuracy but no explanations, or employ a companion rule to obtain an interpretable prediction with slightly lower accuracy. The companion model is trained from data and the predictions of the black-box model, with the objective combining area under the transparency–accuracy curve and model complexity. Our model provides flexible choices for practitioners who face the dilemma of choosing between always using interpretable models and always using black-box models for a predictive task, so users can, for any given input, take a step back to resort to an interpretable prediction if they find the predictive performance satisfying, or stick to the black-box model if the rules are unsatisfying. To show the value of companion models, we design a human evaluation on more than a hundred people to investigate the tolerable accuracy loss to gain interpretability for humans.}
 }
 
 @article{rafique2020transparency,
@@ -178,7 +186,8 @@ abbr = {ICML},
   year={2020},
   organization={PMLR},
   keywords = {ML},
-  award = {Runner-up for Best Paper Award at INFORMS Workshop on Data Science, 2019.}
+  award = {Runner-up for Best Paper Award at INFORMS Workshop on Data Science, 2019.},
+  abstract = {We propose a novel type of hybrid model for multi-class classification, which utilizes competing linear models to collaborate with an existing black-box model, promoting transparency in the decision-making process. Our proposed hybrid model, Model-Agnostic Linear Competitors (MALC), brings together the interpretable power of linear models and the good predictive performance of the state-of-the-art black-box models. We formulate the training of a MALC model as a convex optimization problem, optimizing the predictive accuracy and transparency (defined as the percentage of data captured by the linear models) in the objective function. Experiments show that MALC offers more model flexibility for users to balance transparency and accuracy, in contrast to the currently available choice of either a pure black-box model or a pure interpretable model. The human evaluation also shows that more users are likely to choose MALC for this model flexibility compared with interpretable models and black-box models.}
 }
 
 @article{hong2022adaax,
@@ -190,7 +199,8 @@ abbr = {SIGKDD},
   url = {https://dl.acm.org/doi/pdf/10.1145/3534678.3539356},
   pages={574--584},
   year={2022},
-keywords = {ML}
+keywords = {ML},
+  abstract = {Recurrent neural networks (RNN) are widely used for handling sequence data. However, their black-box nature makes it difficult for users to interpret the decision-making process. We propose a new method to construct deterministic finite automata to explain RNN. In an automaton, states are abstracted from hidden states produced by the RNN, and the transitions represent input symbols. Thus, users can follow the paths of transitions, called patterns, to understand how a prediction is produced. Existing methods for extracting automata partition the hidden state space at the beginning of the extraction, which often leads to solutions that are either inaccurate or too large in size to comprehend. Unlike previous methods, our approach allows the automata states to be formed adaptively during the extraction. Instead of defining patterns on pre-determined clusters, our proposed model, AdaAX, identifies small sets of hidden states determined by patterns with finer granularity in data. Then these small sets are gradually merged to form states, allowing users to trade fidelity for lower complexity. Experiments show that our automata can achieve higher fidelity while being significantly smaller in size than baseline methods on synthetic and complex real datasets.}
 }
 
 

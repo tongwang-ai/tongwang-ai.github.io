@@ -12,7 +12,8 @@ abbr = {DSS},
   year={2022},
   publisher={Elsevier},
 keywords = {business},
-award = {This project is the winner of FICO Recognition Award for the FICO xML Challenge, for building an interpretable model that beats black-box models. See the blog on FICO website about this entry.}
+award = {This project is the winner of FICO Recognition Award for the FICO xML Challenge, for building an interpretable model that beats black-box models. See the blog on FICO website about this entry.},
+  abstract = {Lending decisions are usually made with proprietary models that provide minimally acceptable explanations to users. In a future world without such secrecy, what decision support tools would one want to use for justified lending decisions? This question is timely, since the economy has dramatically shifted due to a pandemic, and a massive number of new loans will be necessary in the short term. We propose a framework for such decisions, including a globally interpretable machine learning model, an interactive visualization of it, and several types of summaries and explanations for any given decision. The machine learning model is a two-layer additive risk model, which resembles a two-layer neural network, but is decomposable into subscales. In this model, each node in the first (hidden) layer represents a meaningful subscale model, and all of the nonlinearities are transparent. Our online visualization tool allows exploration of this model, showing precisely how it came to its conclusion. We provide three types of explanations that are simpler than, but consistent with, the global model: case-based reasoning explanations that use neighboring past cases, a set of features that were the most important for the model's prediction, and summary-explanations that provide a customized sparse explanation for any particular lending decision made by the model. Our framework earned the FICO recognition award for the Explainable Machine Learning Challenge, which was the first public challenge in the domain of explainable machine learning.}
 }
 
 
@@ -24,7 +25,8 @@ abbr = {EJOR},
   url = {https://arxiv.org/pdf/2007.09541},
   year={2023},
   publisher={Elsevier},
-keywords = {business}
+keywords = {business},
+  abstract = {The demand for same-day delivery (SDD) has increased rapidly in the last few years and has particularly boomed during the COVID-19 pandemic. The fast growth is not without its challenge. In 2016, due to low concentrations of memberships and far distance from the depot, certain minority neighborhoods were excluded from receiving Amazon's SDD service, raising concerns about fairness. In this paper, we study the problem of offering fair SDD-service to customers. The service area is partitioned into different regions. Over the course of a day, customers request for SDD service, and the timing of requests and delivery locations are not known in advance. The dispatcher dynamically assigns vehicles to make deliveries to accepted customers before their delivery deadline. In addition to the overall service rate (utility), we maximize the minimal regional service rate across all regions (fairness). We model the problem as a multi-objective Markov decision process and develop a deep Q-learning solution approach. We introduce a novel transformation of learning from rates to actual services, which creates a stable and efficient learning process. Computational results demonstrate the effectiveness of our approach in alleviating unfairness both spatially and temporally in different customer geographies. We also show this effectiveness is valid with different depot locations, providing businesses with an opportunity to achieve better fairness from any location. Further, we consider the impact of ignoring fairness in service, and results show that our policies eventually outperform the utility-driven baseline when customers have a high expectation on service level.}
 }
 
 @article{disjunctive,
@@ -35,7 +37,8 @@ journal = {INFORMS Journal on Computing},
 url = {https://pubsonline.informs.org/doi/10.1287/ijoc.2022.1242},
 year={2022},
 publisher={Informs},
-keywords={business}
+keywords={business},
+  abstract = {In this study, we present an interpretable model, disjunctive rule list (DisRL) for regression. This research is motivated by the increasing need for model interpretability, especially in high-stakes decisions such as medicine, where decisions are made on or related to humans. DisRL is a generalized form of rule lists. A DisRL model consists of a list of disjunctive rules embedded in an if-else logic structure that stratifies the data space. Compared with traditional decision trees and other rule list models in the literature that stratify the feature space with single itemsets (an itemset is a conjunction of conditions), each disjunctive rule in DisRL uses a set of itemsets to collectively cover a subregion in the feature space. In addition, a DisRL model is constructed under a global objective that balances the predictive performance and model complexity. To train a DisRL model, we devise a hierarchical stochastic local search algorithm that exploits the properties of DisRL’s unique structure to improve search efficiency. The algorithm adopts the main structure of simulated annealing and customizes the proposing strategy for faster convergence. Meanwhile, the algorithm uses a prefix bound to locate a subset of the search area, effectively pruning the search space at each iteration. An ablation study shows the effectiveness of this strategy in pruning the search space. Experiments on public benchmark datasets demonstrate that DisRL outperforms baseline interpretable models, including decision trees and other rule-based regressors.}
 }
 
 
@@ -50,7 +53,8 @@ abbr = {Sci. Rep.},
   pages={e026031},
   year={2022},
   publisher={Nature},
-keywords = {healthcare}
+keywords = {healthcare},
+  abstract = {Children with orofacial clefting (OFC) present with a wide range of dental anomalies. Identifying these anomalies is vital to understand their etiology and to discern the complex phenotypic spectrum of OFC. Such anomalies are currently identified using intra-oral exams by dentists, a costly and time-consuming process. We claim that automating the process of anomaly detection using deep neural networks (DNNs) could increase efficiency and provide reliable anomaly detection while potentially increasing the speed of research discovery. This study characterizes the use of DNNs to identify dental anomalies by training a DNN model using intraoral photographs from the largest international cohort to date of children with nonsyndromic OFC and controls (OFC1). In this project, the intraoral images were submitted to a Convolutional Neural Network model to perform multi-label multi-class classification of 10 dental anomalies. The network predicts whether an individual exhibits any of the 10 anomalies and can do so significantly faster than a human rater can. For all but three anomalies, F1 scores suggest that our model performs competitively at anomaly detection when compared to a dentist with 8 years of clinical experience. In addition, we use saliency maps to provide a post-hoc interpretation for our model’s predictions. This enables dentists to examine and verify our model’s predictions.}
 }
 
 @article{Socius,
@@ -64,7 +68,8 @@ abbr = {Socius},
   pages={e026031},
   year={2019},
   publisher={Socius},
-keywords = {healthcare}
+keywords = {healthcare},
+  abstract = {Survey data sets are often wider than they are long. This high ratio of variables to observations raises concerns about overfitting during prediction, making informed variable selection important. Recent applications in computer science have sought to incorporate human knowledge into machine-learning methods to address these problems. The authors implement such a “human-in-the-loop” approach in the Fragile Families Challenge. The authors use surveys to elicit knowledge from experts and laypeople about the importance of different variables to different outcomes. This strategy offers the option to subset the data before prediction or to incorporate human knowledge as scores in prediction models, or both together. The authors find that human intervention is not obviously helpful. Human-informed subsetting reduces predictive performance, and considered alone, approaches incorporating scores perform marginally worse than approaches that do not. However, incorporating human knowledge may still improve predictive performance, and future research should consider new ways of doing so.}
 }
 
 @article{surgery,
@@ -94,7 +99,8 @@ abbr = {BigData},
   pages={3--21},
   year={2015},
   publisher={Mary Ann Liebert, Inc. 140 Huguenot Street, 3rd Floor New Rochelle, NY 10801 USA},
-keywords = {ML}
+keywords = {ML},
+  abstract = {One of the most challenging problems facing crime analysts is that of identifying crime series, which are sets of crimes committed by the same individual or group. Detecting crime series can be an important step in predictive policing, as knowledge of a pattern can be of paramount importance toward finding the offenders or stopping the pattern. Currently, crime analysts detect crime series manually; our goal is to assist them by providing automated tools for discovering crime series from within a database of crimes. Our approach relies on a key hypothesis that each crime series possesses at least one core of crimes that are very similar to each other, which can be used to characterize the modus operandi (M.O.) of the criminal. Based on this assumption, as long as we find all of the cores in the database, we have found a piece of each crime series. We propose a subspace clustering method, where the subspace is the M.O. of the series. The method has three steps: We first construct a similarity graph to link crimes that are generally similar, second we find cores of crime using an integer linear programming approach, and third we construct the rest of the crime series by merging cores to form the full crime series. To judge whether a set of crimes is indeed a core, we consider both pattern-general similarity, which can be learned from past crime series, and pattern-specific similarity, which is specific to the M.O. of the series and cannot be learned. Our method can be used for general pattern detection beyond crime series detection, as cores exist for patterns in many domains.}
 }
 
 @article{ragodos2025conprogail,
@@ -117,8 +123,8 @@ keywords = {ML},
   year={2013},
   organization={Springer},
   keywords = {ML},
-  award = {This work is the second place winner of “Doing Good with Good OR”, INFORMS 2015, and is reported in several media including WIRED.com and Wiki Crime Analysis. Ideas from this work were adopted by the NYPD in their algorithm Patternizr (please see this [paper](https://nparikh.org/assets/pdf/sipa6545/week10-police/policing/nypd-patternizr.pdf) for the details), which operates live in New York City since 2016. }
-
+  award = {This work is the second place winner of “Doing Good with Good OR”, INFORMS 2015, and is reported in several media including WIRED.com and Wiki Crime Analysis. Ideas from this work were adopted by the NYPD in their algorithm Patternizr (please see this [paper](https://nparikh.org/assets/pdf/sipa6545/week10-police/policing/nypd-patternizr.pdf) for the details), which operates live in New York City since 2016. },
+  abstract = {Our goal is to automatically detect patterns of crime. Among a large set of crimes that happen every year in a major city, it is challenging, time-consuming, and labor-intensive for crime analysts to determine which ones may have been committed by the same individual(s). If automated, data-driven tools for crime pattern detection are made available to assist analysts, these tools could help police to better understand patterns of crime, leading to more precise attribution of past crimes, and the apprehension of suspects. To do this, we propose a pattern detection algorithm called Series Finder, that grows a pattern of discovered crimes from within a database, starting from a "seed" of a few crimes. Series Finder incorporates both the common characteristics of all patterns and the unique aspects of each specific pattern, and has had promising results on a decade's worth of crime pattern data collected by the Crime Analysis Unit of the Cambridge Police Department.}
 }
 
 
