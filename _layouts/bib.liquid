@@ -183,7 +183,7 @@
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% capture periodical %}{{ entrytype }}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
@@ -193,13 +193,19 @@
 
     <!-- Links/Buttons -->
     <div class="links">
-      {% comment %} {% if entry.award %}
+      {% if entry.abstract %}
+        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+      {% endif %}
+      {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awards{% endif -%}
         </a>
-      {% endif %} {% endcomment %}
-      {% if entry.abstract %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+      {% endif %}
+      {% if entry.media %}
+        <a class="press btn btn-sm z-depth-0" role="button">Media</a>
+      {% endif %}
+      {% if entry.code %}
+        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
       {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
@@ -238,9 +244,6 @@
       {% endif %}
       {% if entry.blog %}
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
-      {% endif %}
-      {% if entry.code %}
-        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
       {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}
@@ -346,9 +349,21 @@
     {% endif %}
 
     {% if entry.award %}
-      <!-- Hidden Award block -->
-      <div class="award d-print-inline">
-        <p>{{ entry.award | markdownify }}</p>
+      <!-- Hidden award block -->
+      <div class="award hidden">
+        <p>{{ entry.award | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      </div>
+    {% endif %}
+
+    {% if entry.media %}
+      <!-- Hidden media block -->
+      <div class="press hidden">
+        {% assign media_items = entry.media | split: '|' %}
+        <ul>
+          {% for item in media_items %}
+            <li>{{ item | strip | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+          {% endfor %}
+        </ul>
       </div>
     {% endif %}
 

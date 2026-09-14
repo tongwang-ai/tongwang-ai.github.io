@@ -891,6 +891,16 @@ footer.sticky-bottom {
           margin: 10px;
         }
 
+        ul {
+          line-height: 1.4em;
+          margin: 10px 10px 10px 0;
+          padding-left: 1.75rem;
+        }
+
+        li {
+          margin-bottom: 0.25em;
+        }
+
         pre {
           font-size: 1em;
           line-height: 1.4em;
@@ -907,12 +917,16 @@ footer.sticky-bottom {
         transition: all 0.15s ease;
       }
 
-      div.abstract.hidden {
+      div.abstract.hidden,
+      div.award.hidden,
+      div.press.hidden {
         border: 1px solid transparent;
         border-radius: 6px;
       }
 
-      div.abstract.hidden.open {
+      div.abstract.hidden.open,
+      div.award.hidden.open,
+      div.press.hidden.open {
         background-color: var(--global-abstract-bg-color);
         border-color: var(--global-divider-color);
         margin-top: 0.5rem;
@@ -1067,6 +1081,16 @@ footer.sticky-bottom {
           margin: 10px;
         }
 
+        ul {
+          line-height: 1.4em;
+          margin: 10px 10px 10px 0;
+          padding-left: 1.75rem;
+        }
+
+        li {
+          margin-bottom: 0.25em;
+        }
+
         pre {
           font-size: 1em;
           line-height: 1.4em;
@@ -1083,12 +1107,16 @@ footer.sticky-bottom {
         transition: all 0.15s ease;
       }
 
-      div.abstract.hidden {
+      div.abstract.hidden,
+      div.award.hidden,
+      div.press.hidden {
         border: 1px solid transparent;
         border-radius: 6px;
       }
 
-      div.abstract.hidden.open {
+      div.abstract.hidden.open,
+      div.award.hidden.open,
+      div.press.hidden.open {
         background-color: var(--global-abstract-bg-color);
         border-color: var(--global-divider-color);
         margin-top: 0.5rem;
@@ -1244,6 +1272,16 @@ footer.sticky-bottom {
           margin: 10px;
         }
 
+        ul {
+          line-height: 1.4em;
+          margin: 10px 10px 10px 0;
+          padding-left: 1.75rem;
+        }
+
+        li {
+          margin-bottom: 0.25em;
+        }
+
         pre {
           font-size: 1em;
           line-height: 1.4em;
@@ -1260,12 +1298,16 @@ footer.sticky-bottom {
         transition: all 0.15s ease;
       }
 
-      div.abstract.hidden {
+      div.abstract.hidden,
+      div.award.hidden,
+      div.press.hidden {
         border: 1px solid transparent;
         border-radius: 6px;
       }
 
-      div.abstract.hidden.open {
+      div.abstract.hidden.open,
+      div.award.hidden.open,
+      div.press.hidden.open {
         background-color: var(--global-abstract-bg-color);
         border-color: var(--global-divider-color);
         margin-top: 0.5rem;
@@ -1422,6 +1464,16 @@ footer.sticky-bottom {
           margin: 10px;
         }
 
+        ul {
+          line-height: 1.4em;
+          margin: 10px 10px 10px 0;
+          padding-left: 1.75rem;
+        }
+
+        li {
+          margin-bottom: 0.25em;
+        }
+
         pre {
           font-size: 1em;
           line-height: 1.4em;
@@ -1438,12 +1490,16 @@ footer.sticky-bottom {
         transition: all 0.15s ease;
       }
 
-      div.abstract.hidden {
+      div.abstract.hidden,
+      div.award.hidden,
+      div.press.hidden {
         border: 1px solid transparent;
         border-radius: 6px;
       }
 
-      div.abstract.hidden.open {
+      div.abstract.hidden.open,
+      div.award.hidden.open,
+      div.press.hidden.open {
         background-color: var(--global-abstract-bg-color);
         border-color: var(--global-divider-color);
         margin-top: 0.5rem;
